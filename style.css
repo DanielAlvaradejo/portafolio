@@ -479,7 +479,21 @@ ol, ul {
   .grid-container {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   }
-
+  #goTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px; /* Ajusta la distancia desde abajo */
+    right: 20px; /* Ajusta la distancia desde la derecha */
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: var(--color-terciario);
+    color: var(--color-quintario);
+    cursor: pointer;
+    padding: 15px 20px; /* Aumenta el padding para hacer el botón más grande */
+    border-radius: 10px; /* Ajusta el radio del borde según tus preferencias */
+    font-size: 18px; /* Ajusta el tamaño de fuente */
+  }
 }
 
 /* Ajustes para tabletas */
@@ -574,5 +588,19 @@ ol, ul {
   .grid-container {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   }
-  
+  #goTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px; /* Ajusta la distancia desde abajo */
+    right: 20px; /* Ajusta la distancia desde la derecha */
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: var(--color-terciario);
+    color: var(--color-quintario);
+    cursor: pointer;
+    padding: 15px 20px; /* Aumenta el padding para hacer el botón más grande */
+    border-radius: 10px; /* Ajusta el radio del borde según tus preferencias */
+    font-size: 18px; /* Ajusta el tamaño de fuente */
+  }
 }
