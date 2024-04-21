@@ -401,3 +401,178 @@ ol, ul {
   }
 
   }
+
+  /* Ajustes para dispositivos móviles */
+@media (max-width: 767px) {
+  /* Ajustes generales */
+  body {
+    font-size: 16px;
+  }
+
+  /* Ajustes para la navegación */
+  header nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header nav ul li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar-right {
+    margin-top: 20px;
+  }
+
+  /* Ajustes para la sección "Sobre mí" */
+  #about {
+    flex-direction: column;
+  }
+
+  .about-text {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .about-image {
+    justify-content: center;
+  }
+
+  /* Ajustes para los logos */
+  .logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .logos_item img {
+    width: 40px;
+  }
+  
+
+  /* Ajustes para las secciones de contenido */
+  .experience_item {
+    flex-direction: column;
+  }
+
+  .experience_item img:nth-child(1) {
+    margin-right: 0;
+    margin-bottom: 20px;
+    height: auto;
+    max-width: 100%;
+  }
+
+  /* Ajustes para la sección de contacto */
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info {
+    margin-bottom: 30px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+    /* Ajustes para los grid-item de #hobbies y #skills */
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+
+}
+
+/* Ajustes para tabletas */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Ajustes generales */
+  body {
+    font-size: 18px;
+  }
+
+  /* Ajustes para la sección "Sobre mí" */
+  .about-image img {
+    max-width: 70%;
+  }
+
+  /* Ajustes para los logos */
+  .logos_item img {
+    width: 50px;
+  }
+
+  /* Ajustes para la sección de contacto */
+  .contact-form {
+    width: 60%;
+  }
+  
+  /* Ajustes para la navegación */
+  header nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  header nav ul li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  
+  .navbar-right {
+    margin-top: 20px;
+  }
+  
+  /* Ajustes para la sección "Sobre mí" */
+  #about {
+    flex-direction: column;
+  }
+  
+  .about-text {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+  
+  .about-image {
+    justify-content: center;
+  }
+  
+  /* Ajustes para los logos */
+  .logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .logos_item img {
+    width: 40px;
+  }
+    
+  
+  /* Ajustes para las secciones de contenido */
+  .experience_item {
+    flex-direction: column;
+  }
+  
+  .experience_item img:nth-child(1) {
+    margin-right: 0;
+    margin-bottom: 20px;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  /* Ajustes para la sección de contacto */
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-info {
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    width: 100%;
+  }
+  
+    /* Ajustes para los grid-item de #hobbies y #skills */
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+  
+}
